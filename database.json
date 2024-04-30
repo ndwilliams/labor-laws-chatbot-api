@@ -27,14 +27,103 @@
     "menu": [
         {
             "id": 1,
-            "topic": 
+            "topic": "Federal"
         },
+        {
+            "id": 1,
+            "topic": "State"
+        }
     ],
     "submenu": [
         {
             "id": 1,
-            "main_menu_id": ,
-            "topic": 
+            "main_menu_id": 1,
+            "topic": "Wages and Hours" 
+        },
+        {
+            "id": 2,
+            "main_menu_id": 1,
+            "topic": "Workplace Safety and Health" 
+        },
+        {
+            "id": 3,
+            "main_menu_id": 1,
+            "topic": "Worker's Compensation" 
+        },
+        {
+            "id": 4,
+            "main_menu_id": 1,
+            "topic": "Employee Benefits and Security" 
+        },
+        {
+            "id": 5,
+            "main_menu_id": 1,
+            "topic": "Unions and their Members" 
+        },
+        {
+            "id": 6,
+            "main_menu_id": 1,
+            "topic": "Employee Protection" 
+        },
+        {
+            "id": 7,
+            "main_menu_id": 1,
+            "topic": "Uniformed Services Employment and Reemployment Rights Act" 
+        },
+        {
+            "id": 8,
+            "main_menu_id": 1,
+            "topic": "Employee Polygraph Protection Act" 
+        },
+        {
+            "id": 9,
+            "main_menu_id": 1,
+            "topic": "Garnishment of Wages" 
+        },
+        {
+            "id": 10,
+            "main_menu_id": 1,
+            "topic": "Family and Medical Leave Act" 
+        },
+        {
+            "id": 11,
+            "main_menu_id": 1,
+            "topic": "Veteran's Preference" 
+        },
+        {
+            "id": 12,
+            "main_menu_id": 1,
+            "topic": "Government Contracts, Grants, or Financial Aid" 
+        },
+        {
+            "id": 13,
+            "main_menu_id": 1,
+            "topic": "Migrant and Seasonal Agricultural Workers" 
+        },
+        {
+            "id": 14,
+            "main_menu_id": 1,
+            "topic": "Mine Safety and Health" 
+        },
+        {
+            "id": 15,
+            "main_menu_id": 1,
+            "topic": "Construction" 
+        },
+        {
+            "id": 16,
+            "main_menu_id": 1,
+            "topic": "Transportation" 
+        },
+        {
+            "id": 17,
+            "main_menu_id": 1,
+            "topic": "Plant Closings and Layoffs" 
+        },
+        {
+            "id": 18,
+            "main_menu_id": 1,
+            "topic": "Posters" 
         }
     ]
 }
