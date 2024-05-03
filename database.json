@@ -1,129 +1,422 @@
 {
-    "question" : [
-        {
-            "id": 1,
-            "thread_id": ,
-            "answer_id": ,
-            "menu_id": ,
-            "sub_menu_id": ,
-            "question": ,
-            "question_time":         
-        },
-        
-    ],
-    "answer": [
-        {
-            "id": 1,
-            "answer": 
-        },
-    ],
-    "thread": [
-        {
-            "id": 1,
-            "thread_subject": ,
-            "thread_date": 
-        },
-    ],
-    "menu": [
-        {
-            "id": 1,
-            "topic": "Federal"
-        },
-        {
-            "id": 1,
-            "topic": "State"
-        }
-    ],
-    "submenu": [
-        {
-            "id": 1,
-            "main_menu_id": 1,
-            "topic": "Wages and Hours" 
-        },
-        {
-            "id": 2,
-            "main_menu_id": 1,
-            "topic": "Workplace Safety and Health" 
-        },
-        {
-            "id": 3,
-            "main_menu_id": 1,
-            "topic": "Worker's Compensation" 
-        },
-        {
-            "id": 4,
-            "main_menu_id": 1,
-            "topic": "Employee Benefits and Security" 
-        },
-        {
-            "id": 5,
-            "main_menu_id": 1,
-            "topic": "Unions and their Members" 
-        },
-        {
-            "id": 6,
-            "main_menu_id": 1,
-            "topic": "Employee Protection" 
-        },
-        {
-            "id": 7,
-            "main_menu_id": 1,
-            "topic": "Uniformed Services Employment and Reemployment Rights Act" 
-        },
-        {
-            "id": 8,
-            "main_menu_id": 1,
-            "topic": "Employee Polygraph Protection Act" 
-        },
-        {
-            "id": 9,
-            "main_menu_id": 1,
-            "topic": "Garnishment of Wages" 
-        },
-        {
-            "id": 10,
-            "main_menu_id": 1,
-            "topic": "Family and Medical Leave Act" 
-        },
-        {
-            "id": 11,
-            "main_menu_id": 1,
-            "topic": "Veteran's Preference" 
-        },
-        {
-            "id": 12,
-            "main_menu_id": 1,
-            "topic": "Government Contracts, Grants, or Financial Aid" 
-        },
-        {
-            "id": 13,
-            "main_menu_id": 1,
-            "topic": "Migrant and Seasonal Agricultural Workers" 
-        },
-        {
-            "id": 14,
-            "main_menu_id": 1,
-            "topic": "Mine Safety and Health" 
-        },
-        {
-            "id": 15,
-            "main_menu_id": 1,
-            "topic": "Construction" 
-        },
-        {
-            "id": 16,
-            "main_menu_id": 1,
-            "topic": "Transportation" 
-        },
-        {
-            "id": 17,
-            "main_menu_id": 1,
-            "topic": "Plant Closings and Layoffs" 
-        },
-        {
-            "id": 18,
-            "main_menu_id": 1,
-            "topic": "Posters" 
-        }
-    ]
+	"messages": [
+		{
+			"id": 1,
+			"message": "Under federal labor laws, non-exempt employees are entitled to overtime pay at a rate of one and a half times their regular hourly rate for all hours worked over 40 in a workweek.",
+			"sender": "API"
+		},
+		{
+			"id": 2,
+			"message": "The federal minimum wage is $7.25 per hour, and it was last updated in 2009.",
+			"sender": "API"
+		},
+		{
+			"id": 3,
+			"message": "Federal labor laws do not mandate meal breaks or rest periods for employees. However, if provided, breaks lasting 20 minutes or less must be paid.",
+			"sender": "API"
+		},
+		{
+			"id": 4,
+			"message": "Generally, federal labor laws prohibit employers from making deductions from an employee's paycheck for reasons such as damaged equipment or cash register shortages if such deductions would bring the employee's wages below the minimum wage.",
+			"sender": "API"
+		},
+		{
+			"id": 5,
+			"message": "Not all salaried employees are exempt from overtime pay under federal labor laws. To be exempt, salaried employees must meet specific criteria regarding their job duties and be paid a salary of at least $684 per week (as of 2022). These criteria are outlined in the Fair Labor Standards Act (FLSA).",
+			"sender": "API"
+		}
+	],
+
+	"thread": [
+		{
+			"id": 1,
+			"thread_subject": "Federal Labor Laws: Wages and Hours "
+		}
+	],
+	"mainMenu": [
+		{
+			"id": 1,
+			"topic": "Federal"
+		},
+		{
+			"id": 2,
+			"topic": "State"
+		}
+	],
+	"federalMenu": [
+		{
+			"id": 1,
+			"main_menu_id": 1,
+			"topic": "Wages and Hours"
+		},
+		{
+			"id": 2,
+			"main_menu_id": 1,
+			"topic": "Workplace Safety and Health"
+		},
+		{
+			"id": 3,
+			"main_menu_id": 1,
+			"topic": "Worker's Compensation"
+		},
+		{
+			"id": 4,
+			"main_menu_id": 1,
+			"topic": "Employee Benefits and Security"
+		},
+		{
+			"id": 5,
+			"main_menu_id": 1,
+			"topic": "Unions and their Members"
+		},
+		{
+			"id": 6,
+			"main_menu_id": 1,
+			"topic": "Employee Protection"
+		},
+		{
+			"id": 7,
+			"main_menu_id": 1,
+			"topic": "Uniformed Services Employment and Reemployment Rights Act"
+		},
+		{
+			"id": 8,
+			"main_menu_id": 1,
+			"topic": "Employee Polygraph Protection Act"
+		},
+		{
+			"id": 9,
+			"main_menu_id": 1,
+			"topic": "Garnishment of Wages"
+		},
+		{
+			"id": 10,
+			"main_menu_id": 1,
+			"topic": "Family and Medical Leave Act"
+		},
+		{
+			"id": 11,
+			"main_menu_id": 1,
+			"topic": "Veteran's Preference"
+		},
+		{
+			"id": 12,
+			"main_menu_id": 1,
+			"topic": "Government Contracts, Grants, or Financial Aid"
+		},
+		{
+			"id": 13,
+			"main_menu_id": 1,
+			"topic": "Migrant and Seasonal Agricultural Workers"
+		},
+		{
+			"id": 14,
+			"main_menu_id": 1,
+			"topic": "Mine Safety and Health"
+		},
+		{
+			"id": 15,
+			"main_menu_id": 1,
+			"topic": "Construction"
+		},
+		{
+			"id": 16,
+			"main_menu_id": 1,
+			"topic": "Transportation"
+		},
+		{
+			"id": 17,
+			"main_menu_id": 1,
+			"topic": "Plant Closings and Layoffs"
+		},
+		{
+			"id": 18,
+			"main_menu_id": 1,
+			"topic": "Posters"
+		}
+	],
+	"stateMenu": [
+		{
+			"id": 1,
+			"main_menu_id": 2,
+			"state": "Alabama"
+		},
+		{
+			"id": 2,
+			"main_menu_id": 2,
+			"state": "Alaska"
+		},
+		{
+			"id": 3,
+			"main_menu_id": 2,
+			"state": "Arizona"
+		},
+		{
+			"id": 4,
+			"main_menu_id": 2,
+			"state": "Arkansas"
+		},
+		{
+			"id": 5,
+			"main_menu_id": 2,
+			"state": "California"
+		},
+		{
+			"id": 6,
+			"main_menu_id": 2,
+			"state": "Colorado"
+		},
+		{
+			"id": 7,
+			"main_menu_id": 2,
+			"state": "Connecticut"
+		},
+		{
+			"id": 8,
+			"main_menu_id": 2,
+			"state": "Delaware"
+		},
+		{
+			"id": 9,
+			"main_menu_id": 2,
+			"state": "Florida"
+		},
+		{
+			"id": 10,
+			"main_menu_id": 2,
+			"state": "Georgia"
+		},
+		{
+			"id": 11,
+			"main_menu_id": 2,
+			"state": "Hawaii"
+		},
+		{
+			"id": 12,
+			"main_menu_id": 2,
+			"state": "Idaho"
+		},
+		{
+			"id": 13,
+			"main_menu_id": 2,
+			"state": "Illinois"
+		},
+		{
+			"id": 14,
+			"main_menu_id": 2,
+			"state": "Indiana"
+		},
+		{
+			"id": 15,
+			"main_menu_id": 2,
+			"state": "Iowa"
+		},
+		{
+			"id": 16,
+			"main_menu_id": 2,
+			"state": "Kansas"
+		},
+		{
+			"id": 17,
+			"main_menu_id": 2,
+			"state": "Kentucky"
+		},
+		{
+			"id": 18,
+			"main_menu_id": 2,
+			"state": "Louisiana"
+		},
+		{
+			"id": 19,
+			"main_menu_id": 2,
+			"state": "Maine"
+		},
+		{
+			"id": 20,
+			"main_menu_id": 2,
+			"state": "Maryland"
+		},
+		{
+			"id": 21,
+			"main_menu_id": 2,
+			"state": "Massachusetts"
+		},
+		{
+			"id": 22,
+			"main_menu_id": 2,
+			"state": "Michigan"
+		},
+		{
+			"id": 23,
+			"main_menu_id": 2,
+			"state": "Minnesota"
+		},
+		{
+			"id": 24,
+			"main_menu_id": 2,
+			"state": "Mississippi"
+		},
+		{
+			"id": 25,
+			"main_menu_id": 2,
+			"state": "Missouri"
+		},
+		{
+			"id": 26,
+			"main_menu_id": 2,
+			"state": "Montana"
+		},
+		{
+			"id": 27,
+			"main_menu_id": 2,
+			"state": "Nebraska"
+		},
+		{
+			"id": 28,
+			"main_menu_id": 2,
+			"state": "Nevada"
+		},
+		{
+			"id": 29,
+			"main_menu_id": 2,
+			"state": "New Hampshire"
+		},
+		{
+			"id": 30,
+			"main_menu_id": 2,
+			"state": "New Jersey"
+		},
+		{
+			"id": 31,
+			"main_menu_id": 2,
+			"state": "New Mexico"
+		},
+		{
+			"id": 32,
+			"main_menu_id": 2,
+			"state": "New York"
+		},
+		{
+			"id": 33,
+			"main_menu_id": 2,
+			"state": "North Carolina"
+		},
+		{
+			"id": 34,
+			"main_menu_id": 2,
+			"state": "North Dakota"
+		},
+		{
+			"id": 35,
+			"main_menu_id": 2,
+			"state": "Ohio"
+		},
+		{
+			"id": 36,
+			"main_menu_id": 2,
+			"state": "Oklahoma"
+		},
+		{
+			"id": 37,
+			"main_menu_id": 2,
+			"state": "Oregon"
+		},
+		{
+			"id": 38,
+			"main_menu_id": 2,
+			"state": "Pennsylvania"
+		},
+		{
+			"id": 39,
+			"main_menu_id": 2,
+			"state": "Rhode Island"
+		},
+		{
+			"id": 40,
+			"main_menu_id": 2,
+			"state": "South Carolina"
+		},
+		{
+			"id": 41,
+			"main_menu_id": 2,
+			"state": "South Dakota"
+		},
+		{
+			"id": 42,
+			"main_menu_id": 2,
+			"state": "Tennessee"
+		},
+		{
+			"id": 43,
+			"main_menu_id": 2,
+			"state": "Texas"
+		},
+		{
+			"id": 44,
+			"main_menu_id": 2,
+			"state": "Utah"
+		},
+		{
+			"id": 45,
+			"main_menu_id": 2,
+			"state": "Vermont"
+		},
+		{
+			"id": 46,
+			"main_menu_id": 2,
+			"state": "Virginia"
+		},
+		{
+			"id": 47,
+			"main_menu_id": 2,
+			"state": "Washington"
+		},
+		{
+			"id": 48,
+			"main_menu_id": 2,
+			"state": "West Virginia"
+		},
+		{
+			"id": 49,
+			"main_menu_id": 2,
+			"state": "Wisconsin"
+		},
+		{
+			"id": 50,
+			"main_menu_id": 2,
+			"state": "Wyoming"
+		}
+	],
+	"stateTopicMenu": [
+		{
+			"id": 1,
+			"state_id": 42,
+			"topic": "Employee Rights"
+		},
+		{
+			"id": 2,
+			"state_id": 42,
+			"topic": "Child Labor"
+		},
+		{
+			"id": 3,
+			"state_id": 42,
+			"topic": "Wages and Breaks"
+		},
+		{
+			"id": 4,
+			"state_id": 42,
+			"topic": "Referrals"
+		},
+		{
+			"id": 5,
+			"state_id": 42,
+			"topic": "Employment Verification"
+		},
+		{
+			"id": 6,
+			"state_id": 42,
+			"topic": "TN Laws and Codes"
+		}
+	]
 }
